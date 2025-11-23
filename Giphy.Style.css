@@ -1,0 +1,27 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #000000ec;
+    }
+    h1 {
+      text-align: center;
+      color: #faf7f7;
+    }
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    #image-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
