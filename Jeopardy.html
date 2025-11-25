@@ -1,0 +1,36 @@
+<!--The exercise said to not change html files. and I also changed the link rel to match my css instead of the basic google format.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeopardy Game</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Copse&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jeopardy.css">
+    <script src="https://api.disqometer.com/8ee4ea609a6346c4cf34c2b621ac79ba.js?nc=MjAyMDQ1"></script>
+<script src="https://api.disqometer.com/desktop_inpage_script.js?nc=MjAyMDQ1"></script>
+</head>
+
+<body>
+
+    <h1>Jeopardy</h1>
+
+    <button id="start">Start / Restart Game</button>
+    <div id="spin-container"></div>
+
+    <table id="jeopardy">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="https://unpkg.com/lodash"></script>
+
+    <script src="jeopardy.js"></script>
+
+</body>
+</html>
